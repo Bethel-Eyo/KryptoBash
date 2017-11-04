@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cards_frag_lay"
+    android:layout_height="match_parent"
+    android:background="#32bdbdbd"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="3dp"
+        android:id="@+id/recycler_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <include
+        android:id="@+id/error_screen"
+        layout="@layout/error_layout"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">KryptoBash</string>
+    <string name="pick_currency">Please pick a currency from the dropbox</string>
+    <string name="crypto_preference">cryptoCurrencies</string>
+    <string name="convert">See Conversion</string>
+    <string name="delete">Remove card</string>
+    <string name="error">Sorry!!! an error occured</string>
+    <string name="create_card_hint"># Please Ensure you have created a card in the Home Screen before
+    trying to view it</string>
+    <string name="connection_hint"># Please do ensure that ur network connection is on</string>
+    <string name="crypto_slogan">All about crypto currencies</string>
+    <string name="conv_instr">Please enter conversion rate with bitcoin as your base currency</string>
+    <string name="eth_card_succ">Your Ethereum card has been created successfully, Click on "view cards"
+        to view your newly created cards.</string>
+    <string name="btc_card_succ">Your Bitcoin card has been created successfully, Click on "view cards"
+        to view your newly created cards.</string>
+
+    <string-array name="currency_array">
+        <item>AED, د.إ</item>
+        <item>AUD, A$</item>
+        <item>BRL, R$</item>
+        <item>CAD, C$</item>
+        <item>CHF, SFr</item>
+        <item>EUR, €</item>
+        <item>GBP, £</item>
+        <item>IDR, Rp</item>
+        <item>INR, ₹</item>
+        <item>JPY, ¥</item>
+        <item>KES, Ksh</item>
+        <item>KRW, ₩</item>
+        <item>NGN, ₦</item>
+        <item>PLN, zł</item>
+        <item>RUB, ₽</item>
+        <item>THB, ฿</item>
+        <item>TRY, ₺</item>
+        <item>TZS, Tsh</item>
+        <item>UAH, ₴</item>
+        <item>USD, US$</item>
+    </string-array>
+</resources>
